@@ -1,0 +1,110 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap');
+</style>
+:root{
+	--f7-theme-color:#FF862F;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+body{
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.img-fluid1{
+	max-width: 25%;
+	display: block;
+	margin: 40% 38% 0;
+}
+.img-fluid2{
+	max-width: 100%;
+}
+.head{
+	text-align: center;
+	font-size: 20px;
+}
+.panel{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+}
+.panel ul{
+	margin-top: 40%;
+	background-color: #ff914d;
+}
+.panel ul a{
+	color: #fff;
+	font-size: 14px;
+}
+.panel span.material-icons{
+	font-size: 22px;
+}
+
+.navbar i{
+	color: #000;
+	background-color: var(--f7-theme-color);
+}
+
+#bienvenida{
+	align-content: center;
+	background-color: #ff914d;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 10%;
+}
+
+#bienvenida img{
+	padding-bottom: 15%;
+	padding-top: 30%;
+	max-width: 150px;
+}
+
+
+.block-title-medium{
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 4%;
+	color: #fff;
+}
+
+.button-fill{
+	color: #fff;
+	background-color: #ff914d;
+	border:solid 1px #fff;
+	margin-top: 10%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.button-fill:hover{
+	color: #fff;
+	background-color: #ff914d;
+	border:none;
+	margin-top: 10%;
+}
+
+.block-title-large{
+	color: #ff914d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
