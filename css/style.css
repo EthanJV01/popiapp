@@ -23,17 +23,20 @@ body{
 .img-fluid2{
 	max-width: 100%;
 }
+.img-fluid3{
+	max-width: 70px;
+}
 .head{
 	text-align: center;
 	font-size: 20px;
 }
 .panel{
-	background-color: var(--f7-theme-color);
+	background-color: #FF862F;
 	color: #fff;
 }
 .panel ul{
 	margin-top: 40%;
-	background-color: #ff914d;
+	background-color: #FF862F;
 }
 .panel ul a{
 	color: #fff;
@@ -42,15 +45,18 @@ body{
 .panel span.material-icons{
 	font-size: 22px;
 }
-
+.navbar{
+	background-color: #fff;
+	border: 0;
+	box-shadow: transparent;
+}
 .navbar i{
 	color: #000;
-	background-color: var(--f7-theme-color);
 }
 
 #bienvenida{
 	align-content: center;
-	background-color: #ff914d;
+	background-color: #FF862F;
 	text-align: center;
 	color: #fff;
 	padding-bottom: 10%;
@@ -72,7 +78,7 @@ body{
 
 .button-fill{
 	color: #fff;
-	background-color: #ff914d;
+	background-color: #FF862F;
 	border:solid 1px #fff;
 	margin-top: 10%;
 	margin-right: 15%;
@@ -81,19 +87,55 @@ body{
 
 .button-fill:hover{
 	color: #fff;
-	background-color: #ff914d;
+	background-color: #FF862F;
 	border:none;
 	margin-top: 10%;
 }
-
+.block-title-medium{
+	font-size: 20px;
+	margin-top: 20px;
+	color: #aaa;
+}
 .block-title-large{
-	color: #ff914d;
+	color: #FF862F;
+	font-size: 50px;
+	margin-bottom: 5px;
 }
 
-
-
-
-
+#categories{
+	background-color: #fff;
+}
+#categories a{
+	color: #FF862F;
+}
+#categories .col{
+	text-align: center;
+	margin: 10px 0;
+}
+.list .item-after{
+	color: #FF862F;
+	display: table-column;
+}
+.paddinglista{
+	padding: 30px 0;
+}
+.list .item-header{
+	font-size: 13px;
+	font-weight: 700;
+}
+p, h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+.list .item-title p{
+	font-size: 11px;
+}
+#about{
+	background-color: #fff;
+}
+.paddinglista2{
+	padding: 10px 0;
+}
 
 
 

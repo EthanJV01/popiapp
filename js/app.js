@@ -27,9 +27,9 @@ var app = new Framework7({
     	name: 'about',
   		},
 		{
-		path: '/cards/',
-    	url: 'cards.html',
-    	name: 'cards',
+		path: '/main/',
+    	url: 'main.html',
+    	name: 'main',
   		},
 		{
 		path: '/swiper/',
