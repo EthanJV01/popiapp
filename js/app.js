@@ -27,19 +27,40 @@ var app = new Framework7({
     	name: 'about',
   		},
 		{
-		path: '/main/',
-    	url: 'main.html',
-    	name: 'main',
+		path: '/register/',
+    	url: 'register.html',
+    	name: 'register',
   		},
 		{
-		path: '/swiper/',
-    	url: 'swiper.html',
-    	name: 'swiper',
+		path: '/login/',
+    	url: 'login.html',
+    	name: 'login',
   		},
 		{
-		path: '/checkout/',
-    	url: 'checkout.html',
-    	name: 'checkout',
+		path: '/registerpt2/',
+    	url: 'registerpt2.html',
+    	name: 'registerpt2',
+  		},
+		{
+		path: '/registerpt3/',
+    	url: 'registerpt3.html',
+    	name: 'registerpt3',
+  		}
+		,
+		{
+		path: '/home2/',
+    	url: 'index2.html',
+    	name: 'shome2',
+  		},
+		{
+		path: '/home3/',
+    	url: 'index3.html',
+    	name: 'home3',
+  		},
+		{
+		path: '/mapa/',
+    	url: 'mapa.html',
+    	name: 'mapa',
   		}
 		
 	],
@@ -70,7 +91,7 @@ $$('#btnLogin').on('click', function (e) {
 	var $valid = $$('#form-login')[0].checkValidity();
 	if ($valid){
         $$('#form-login').trigger('reset');	
-        app.loginScreen.close('#modal-login');
+        app.loginScreen.close('#login-screen');
 		
 		app.dialog.alert('¡ Bienvenido a la APP !');
     }

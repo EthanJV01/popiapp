@@ -14,46 +14,22 @@
 	
 	<div id="app">
 			
-		<section class="panel panel-left panel-cover">
+		<section class="panel panel-left panel-cover" id="menu">
 			<div class="block">
-				<img src="img/happy.png" alt="" class="img-fluid1" >
+				<img src="img/happy.png" alt="">
 				<p class="head">David Zavala</p>
 			</div>
 			<div class="block">
 				<div class="list media-list">
 					<ul>
 						<li>
-							<a href="#" class="item-content panel-close">
+							<a href="/home/" class="item-content panel-close">
 								<div class="item-media">
-									<span class="material-icons">person_outline</span>
+									<span class="material-icons">home</span>
 								</div>
 								<div class="item-inner">
 									<div class="item-title-row">
-										<div class="item-title">Información personal</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="item-content panel-close">
-								<div class="item-media">
-									<span class="material-icons">notifications_none</span>
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">Notificaciones</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="item-content panel-close">
-								<div class="item-media">
-									<span class="material-icons">search</span>
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">Buscar cuidadores</div>
+										<div class="item-title">Home</div>
 									</div>
 								</div>
 							</a>
@@ -71,19 +47,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item-content panel-close">
-								<div class="item-media">
-									<span class="material-icons">lock_open</span>
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">Privacidad</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="/home/" class="item-content panel-close">
+							<a href="/login/" class="item-content panel-close">
 								<div class="item-media">
 									<span class="material-icons">power_settings_new</span>
 								</div>
@@ -101,19 +65,179 @@
 		
 		<div class="view view-main view-init">
 			<section data-name="home" class="page">
-
-				<section class="page-content" id="bienvenida">
-					<img src="img/popilogo1.png" alt="logo">
-					<h2 class="block-title block-title-medium"> Bienvenidos a Popi App</h2>
-					<div class="block">
-						Encuentra al mejor cuidador para tu perro o conviertete en cuidador ¡tú decides!
-						<a href="/main/" class="button button-fill" >Comenzar</a>
-					</div>
-				</section> <!--/page-content -->
 				
-			</section> <!--/page -->
-		</div><!--/view -->
+				<nav class="navbar">
+					<div class="navbar-bg"></div>
+					<div class="navbar-inner">
+						<div class="left">
+							<a href="#" class="link panel-open" data-panel="left">
+								<i class="material-icons">menu</i>
+							</a>
+						</div>
+						<div class="subnavbar">
+							<form class="searchbar">
+								<div class="searchbar-inner">
+									<div class="searchbar-input-wrap">
+										<input type="search" placeholder="Search">
+										<i class="searchbar-icon"></i>
+										<span class="input-clear-button"></span>
+									</div>
+									<span class="searchbar-disable-button if-not-aurora">Cancel</span>
+								</div>
+							</form>
+						</div>
+						<div class="right">
+							<a href="/mapa/" class="button button-fill">Mapa</a>
+						</div>
+					</div>
+				</nav>
+
+				<section class="page-content" id="categories">
+					<div class="block">
+						<div class="row">
+							<article class="col">
+								<a href="/home/">
+									<span class="material-icons">bed</span><br>
+									Alojamiento<br>
+									<span class="material-icons">radio_button_checked</span><br>
+								</a>
+							</article>
+							<article class="col">
+								<a href="/home2/">
+									<span class="material-icons">pets</span><br>
+									Paseos<br>
+									<span class="material-icons">radio_button_unchecked</span><br>
+								</a>
+							</article>
+							<article class="col">
+								<a href="/home3/">
+									<span class="material-icons">roofing</span><br>
+									Guardería de Día<br>
+									<span class="material-icons">radio_button_unchecked</span><br>
+								</a>
+							</article>
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="list">
+							<ul>
+								<li>
+									<div class="item-content paddinglista">
+										<div class="item-media"><img src="img/aloja1.jpg" alt=""></div>
+										<div class="item-inner">
+											<div class="item-title">
+												<div class="item-header">Hotel Perruno en Casa Grande</div>
+												<p>Comayagua</p>
+												<div class="item-footer"><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_outline</span></div>
+											</div>
+											<div class="item-after"><span class="material-icons">bed</span><br>L500.00</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="item-content paddinglista">
+										<div class="item-media"><img src="img/aloja2.jpg" alt=""></div>
+										<div class="item-inner">
+											<div class="item-title">
+												<div class="item-header">Casa Bonita Adecuada para Perros</div>
+												<p>Tegucigalpa</p>
+												<div class="item-footer"><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_outline</span><span class="material-icons">star_outline</span><span class="material-icons">star_outline</span></div>
+											</div>
+											<div class="item-after"><span class="material-icons">bed</span><br>L300.00</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="item-content paddinglista">
+										<div class="item-media"><img src="img/aloja3.jpg" alt=""></div>
+										<div class="item-inner">
+											<div class="item-title">
+												<div class="item-header">Casa con Jardín</div>
+												<p>Tegucigalpa</p>
+												<div class="item-footer"><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span></div>
+											</div>
+											<div class="item-after"><span class="material-icons">bed</span><br>L700.00</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="item-content paddinglista">
+										<div class="item-media"><img src="img/aloja4.jpg" alt=""></div>
+										<div class="item-inner">
+											<div class="item-title">
+												<div class="item-header">Casa Espaciosa</div>
+												<p>San Pedro Sula</p>
+												<div class="item-footer"><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_outline</span><span class="material-icons">star_outline</span></div>
+											</div>
+											<div class="item-after"><span class="material-icons">bed</span><br>L450.00</div>
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="item-content paddinglista">
+										<div class="item-media"><img src="img/aloja5.jpg" alt=""></div>
+										<div class="item-inner">
+											<div class="item-title">
+												<div class="item-header">Casa de Campo</div>
+												<p>Olancho</p>
+												<div class="item-footer"><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span><span class="material-icons">star_rate</span></div>
+											</div>
+											<div class="item-after"><span class="material-icons">bed</span><br>L1000.00</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				
+			</section>
+
+		</div>
 		
+		<section class="login-screen modal-in" id="login-screen">
+			<div class="view">
+				<div class="page">
+					<div class="page-content login-screen-content">
+						<div class="login-screen-title"><img src="img/popilogo1.png" alt="" class="img-fluid"></div>
+						<form class="block" id="form-login">
+							<div class="list">
+								<ul>
+									<li class="item-content item-input">
+										<div class="item-inner">
+											<div class="item-input-wrap">
+												<input type="text" name="username" placeholder="Nombre" required validate>
+												<span class="input-clear-button"></span>
+											</div>
+										</div>
+									</li>
+									<li class="item-content item-input">
+										<div class="item-inner">
+											<div class="item-input-wrap">
+												<input type="password" name="password" placeholder="Contraseña" required validate>
+												<span class="input-clear-button"></span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="block">
+								<a href="#" class="button" id="btnLogin">Ingresar</a>
+								<div class="block-footer">
+									<p>¿No tenés una cuenta? <a href="/register/" class="login-screen-close">Registrate</a></p>
+									<p><a href="/home/" class="login-screen-close">Acceder como invitado</a></p>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 		
 	</div><!--/app -->
 	
